@@ -1,0 +1,26 @@
+---
+layout: default
+robots: noindex
+---
+
+<!--<div class="main-post-list">-->
+
+  <ul class="panel">
+    
+    {% for entry in site.data.information %}
+
+      <li style="list-style: none;">
+        <div class="panel">
+          <div class="panel-title">
+            <h5>{{ entry.name }}</h5>
+          </div>
+          <div class="panel-body">
+            {{ entry.desc | markdownify }}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+<!--</div>-->
+

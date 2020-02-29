@@ -1,0 +1,29 @@
+# Site settings
+title: Ameigh Insights Limited
+description: 'Business Information'
+url: 'http://www.ameighinsights.co.uk/'
+baseurl: ''
+profilepic: '/images/headshot.jpg'
+bkimage: '/images/bk1.jpg'
+font_awesome: '8c60d3c109.js'
+
+author:
+  name: 'Colin Ameigh'
+  linkedin_username: colin-ameigh-aba4115
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+exclude: ['README.md' ]

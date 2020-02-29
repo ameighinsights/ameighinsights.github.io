@@ -1,0 +1,22 @@
+# Information entries section data
+- name: About Ameigh Insights
+  desc: |-
+    Ameigh Insights is an experienced IT consultancy and contracting firm
+    that delivers software solutions that meet your needs.
+
+    With over twenty years of experience across multiple different domains
+    you can be certain that our insights can help you achieve your goals,
+    whatever they may be.
+- name: Services
+  desc: |-
+    Offering both Development and DevOps services, using a wide
+    variety of open source languages and tools, Ameigh Insights
+    can provide test-driven solutions to your IT problems with
+    the right level of automation to ensure that handover to
+    operational teams is always as smooth as possible.
+
+    We can also provide training and advice at every level, from
+    Enterprise architecture to low level code.
+- name: Contact
+  desc: |-
+    For further information contact Colin Ameigh via <a href="https://www.linkedin.com/in/colin-ameigh-aba4115" title="Colin Ameigh on LinkedIn" target="_blank">LinkedIn</a>
